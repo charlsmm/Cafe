@@ -1,0 +1,56 @@
+/* Estilos para el fondo de la página */
+body {
+    background-image: url("https://www.lavanguardia.com/files/article_gallery_microformat/uploads/2021/09/02/6130aa6b02297.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #3c3c3c;
+  }
+  
+  /* Estilos para el encabezado */
+  h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #ffffff;
+    text-shadow: 1px 1px #000000;
+  }
+  
+  /* Estilos para el formulario */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  input[type="text"], input[type="password"] {
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+  
+  button[type="submit"] {
+    border-radius: 0;
+    background-color: #a0522d;
+    color: #ffffff;
+    border-color: #a0522d;
+  }
+  
+  /* Estilos para el enlace de registro */
+  p.text-center {
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: #ffffff;
+  }
+  
+  p.text-center a {
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 1px 1px #000000;
+  }
+  
+  p.text-center a:hover {
+    text-decoration: none;
+    color: #a0522d;
+  }
